@@ -1,0 +1,56 @@
+
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column !important;
+    gap: 15px;
+    padding: 15px;
+    text-align: center;
+  }
+  header nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+  }
+  .hero h1 {
+    font-size: 2rem !important;
+  }
+  .about_flex {
+    flex-direction: column-reverse !important; 
+    align-items: center;
+    gap: 20px;
+  }
+  .about_flex img {
+    width: 80% !important;
+    max-width: 250px;
+    height: auto;
+  }
+  .education_flex {
+    flex-direction: column !important;
+    gap: 25px;
+  }
+  .education_text_flex {
+    flex-direction: column !important;
+    text-align: left !important;
+    gap: 5px;
+  }
+  .project_flex, .project_content_flex {
+    flex-direction: column !important;
+    align-items: center;
+    gap: 20px;
+  }
+  .project_content_flex img {
+    width: 100% !important;
+    max-width: 350px;
+    height: auto;
+  }
+  .project_text_flex {
+    text-align: left !important;
+  }
+  .skill_content, .skill_content_flex {
+    flex-direction: column !important;
+    align-items: center;
+    gap: 20px;
+  }
+}
